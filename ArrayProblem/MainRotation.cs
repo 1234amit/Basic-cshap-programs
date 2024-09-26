@@ -1,0 +1,47 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ArrayProblem
+{
+    public class MainRotation
+    {
+        public void Rotate(int[][] matrix)
+        {
+            int n = matrix.Length;
+            for(int i = 0; i<n; i++)
+            {
+                for(int j=0; j<n; j++)
+                {
+                    int temp = matrix[i][j];
+                    matrix[i][j] = matrix[j][i];
+                    matrix[j][i] = temp;
+                }
+            }
+
+            //reverse each now
+            for(int i =0; i<n; i++)
+            {
+                int start = 0, end = n - 1;
+                while(start < end)
+                {
+                    int temp = matrix[i][start];
+                    matrix[i][start] = matrix[i][end];
+                    matrix[i][end] = temp;
+                    start++;
+                    end--;
+                }
+            }
+        }
+
+        public void printMatrix(int[][] matrix)
+        {
+            for(int i=0; i<matrix.Length; i++)
+            {
+                Console.WriteLine(string.Join("", matrix[i]));
+            }
+        }
+    }
+}
