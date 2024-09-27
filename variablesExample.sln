@@ -45,6 +45,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dictionary", "Dictionary\Di
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictionaryAndList", "DictionaryAndList\DictionaryAndList.csproj", "{DF3DC610-2A7B-40D4-8E10-4A18DDFB719E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictionaryofBooksPrice", "DictionaryofBooksPrice\DictionaryofBooksPrice.csproj", "{2235C3BF-C414-41A2-AC0B-D8EB98567791}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeandDepartment", "EmployeeandDepartment\EmployeeandDepartment.csproj", "{73D20650-698C-4157-A70B-ED6BD0F4023E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "minimumPathSum", "minimumPathSum\minimumPathSum.csproj", "{9677CE88-8EEB-4BFA-88E6-9102DD30C317}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeIntervel", "MergeIntervel\MergeIntervel.csproj", "{DE06CD94-7624-44EF-91FB-45688531CF91}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +143,22 @@ Global
 		{DF3DC610-2A7B-40D4-8E10-4A18DDFB719E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF3DC610-2A7B-40D4-8E10-4A18DDFB719E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF3DC610-2A7B-40D4-8E10-4A18DDFB719E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2235C3BF-C414-41A2-AC0B-D8EB98567791}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2235C3BF-C414-41A2-AC0B-D8EB98567791}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2235C3BF-C414-41A2-AC0B-D8EB98567791}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2235C3BF-C414-41A2-AC0B-D8EB98567791}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73D20650-698C-4157-A70B-ED6BD0F4023E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73D20650-698C-4157-A70B-ED6BD0F4023E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73D20650-698C-4157-A70B-ED6BD0F4023E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73D20650-698C-4157-A70B-ED6BD0F4023E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9677CE88-8EEB-4BFA-88E6-9102DD30C317}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9677CE88-8EEB-4BFA-88E6-9102DD30C317}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9677CE88-8EEB-4BFA-88E6-9102DD30C317}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9677CE88-8EEB-4BFA-88E6-9102DD30C317}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE06CD94-7624-44EF-91FB-45688531CF91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE06CD94-7624-44EF-91FB-45688531CF91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE06CD94-7624-44EF-91FB-45688531CF91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE06CD94-7624-44EF-91FB-45688531CF91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
